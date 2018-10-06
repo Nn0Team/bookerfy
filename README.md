@@ -11,14 +11,30 @@
 
 - Sign-in/Sign-up
 - Minimum user profile
-- Add a simple note
+- Add a note:
+  - Make nice notes with markdown
 - Show the note as a record on timeline followed by "name, date and label"
 - Ex: label: work/project/class
-- Timeline: :fire:
-  - Filter the list with the selected label
+- Search by:
   - Filter by search input
-  - Filter the note by team member name
-- Catalog the starred list of github
+- Timeline: :fire:
+  - Will be created a new entry on timeline automatically each day
+
+## Upcoming features
+
+- More accurate search with:
+  - By team member name
+  - With the selected label
+- Separate your notes with ease:
+  - Create your projects to hold notes and tasks in a single place
+  - Create your goals to hold your specific tasks
+  - We can't remember all the things, right? Bookerify will have a notification to you revise and remember your goals :chart_with_upwards_trend:
+- Collapsible component within each note (splitting goals or activities during the day)
+- More advanced timeline features:
+  - Adding an icon for your need
+  - Starred days with important notes
+ - Remember your stared and useful repositories on github:
+    - Catalog the starred list of github
 
 ## License
 
