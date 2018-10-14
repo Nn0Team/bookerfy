@@ -11,14 +11,21 @@
 
 - Sign-in/Sign-up
 - Minimum user profile
-- Add a note:
-  - Make nice notes with markdown
+- Add a note :clipboard:
+  - Simple note
+  - Starred important notes
+  - Nice notes with markdown
+  - Markdown can be chose on the note if required
+- Folder structure to better organization of notes
 - Show the note as a record on timeline followed by "name, date and label"
-- Ex: label: work/project/class
+  - Ex: label: work/project/class
 - Search by:
   - Filter by search input
 - Timeline: :fire:
-  - Will be created a new entry on timeline automatically each day
+- Profile type :rocket:
+  - Organize your work and personal notes
+  - Will be created a new entry on timeline automatically each day with a simple note or switch to a work/project profile to create your own entries 
+ 
 
 ## Upcoming features
 
@@ -32,7 +39,6 @@
 - Collapsible component within each note (splitting goals or activities during the day)
 - More advanced timeline features:
   - Adding an icon for your need
-  - Starred days with important notes
  - Remember your stared and useful repositories on github:
     - Catalog the starred list of github
 
