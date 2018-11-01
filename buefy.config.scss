@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+// Import Bulma's core
+@import "~bulma";
+@import "~bulma/sass/utilities/_all";
+
+// Import buefy
+@import "~buefy/src/scss/buefy";
+
+// Roboto Condensed font
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+// Component extension
+@import "~bulma-timeline";
+@import "~bulma-divider";
+
+// Set your colors
+$primary: #ecc910;
+$primary-invert: findColorInvert($primary);
+$twitter: #4099ff;
+$twitter-invert: findColorInvert($twitter);
+$navbar-background: #ecc910;
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+// Font-family
+$roboto-condesed-regular: "Roboto Condensed", sans-serif;
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: (
+  "white": (
+    $white,
+    $black
+  ),
+  "black": (
+    $black,
+    $white
+  ),
+  "light": (
+    $light,
+    $light-invert
+  ),
+  "dark": (
+    $dark,
+    $dark-invert
+  ),
+  "primary": (
+    $primary,
+    $primary-invert
+  ),
+  "info": (
+    $info,
+    $info-invert
+  ),
+  "success": (
+    $success,
+    $success-invert
+  ),
+  "warning": (
+    $warning,
+    $warning-invert
+  ),
+  "danger": (
+    $danger,
+    $danger-invert
+  ),
+  "twitter": (
+    $twitter,
+    $twitter-invert
+  )
+);

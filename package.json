@@ -12,6 +12,9 @@
   "dependencies": {
     "apollo": "^1.9.2",
     "buefy": "^0.7.0",
+    "bulma-divider": "^2.0.1",
+    "bulma-timeline": "^3.0.0",
+    "google-fonts": "^1.0.0",
     "graphql-type-json": "^0.2.1",
     "vue": "^2.5.17",
     "vue-apollo": "^3.0.0-beta.11",
