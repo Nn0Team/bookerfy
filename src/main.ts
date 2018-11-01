@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import App from './App.vue';
 import router from './router';
+import App from './app/App.vue';
 import Buefy from 'buefy';
 import VueApollo from 'vue-apollo';
 import { createProvider } from './vue-apollo';
