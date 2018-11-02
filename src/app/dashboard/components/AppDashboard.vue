@@ -1,22 +1,13 @@
 <template>
 	<div class="columns">
-		<div class="column is-two-fifths">
-			<section class=" level seciton">
-				<div class="level-left">
-					<div class="level-item">
-						<!-- Panel controler -->
-						<ThePanel/>
-					</div>
-					<div class="is-divider-vertical"></div>
-				</div>
-			</section>
-		</div>
 		<div class="column">
-			<section class="level-right section">
-				<div class="level-right">
-					<!-- note spot -->
+			<div class="columns">
+				<div class="column is-2">
+					<MainMenu />
 				</div>
-			</section>
+				<div class="column is-9">
+				</div>
+			</div>
 		</div>
 	</div>
 </template>
@@ -24,15 +15,15 @@
 <script lang="ts">
 import Vue from 'vue';
 import Component from 'vue-class-component';
-import ThePanel from '../../../shared-components/ThePanel.vue';
+import MainMenu from './AppMainMenu.vue';
 
 @Component({
   components: {
-    ThePanel,
+    MainMenu,
   },
 })
 export default class Dashboard extends Vue {}
 </script>
 
-<style lang="scss" scoped>
+<style lang="sass" scoped>
 </style>
