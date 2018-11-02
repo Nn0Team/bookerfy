@@ -1,0 +1,74 @@
+$folder-color: $text !default
+$folder-background-color: $white !default
+$folder-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1) !default
+
+$folder-header-background-color: transparent !default
+$folder-header-color: $text-strong !default
+$folder-header-shadow: 0 1px 2px rgba($black, 0.1) !default
+$folder-header-weight: $weight-bold !default
+
+$folder-content-background-color: transparent !default
+
+$folder-footer-background-color: transparent !default
+$folder-footer-border-top: 1px solid $border !default
+
+.folder
+  background-color: $folder-background-color
+  box-shadow: $folder-shadow
+  color: $folder-color
+  max-width: 15%
+  position: relative
+
+.folder-header
+  background-color: $folder-header-background-color
+  align-items: stretch
+  box-shadow: $folder-header-shadow
+  display: flex
+
+.folder-header-title
+  align-items: center
+  color: $folder-header-color
+  display: flex
+  flex-grow: 1
+  font-weight: $folder-header-weight
+  padding: 0.75rem
+  &.is-centered
+    justify-content: center
+
+.folder-header-icon
+  align-items: center
+  cursor: pointer
+  display: flex
+  justify-content: center
+  padding: 0.75rem
+
+.folder-image
+  display: block
+  position: relative
+
+.folder-content
+  background-color: $folder-content-background-color
+  padding: 1.5rem
+
+.folder-footer
+  background-color: $folder-footer-background-color
+  border-top: $folder-footer-border-top
+  align-items: stretch
+  display: flex
+
+.folder-footer-item
+  align-items: center
+  display: flex
+  flex-basis: 0
+  flex-grow: 1
+  flex-shrink: 0
+  justify-content: center
+  padding: 0.75rem
+  &:not(:last-child)
+    border-right: $folder-footer-border-top
+
+// Combinations
+
+.folder
+  .media:not(:last-child)
+    margin-bottom: 0.75rem
